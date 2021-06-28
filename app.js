@@ -1,3 +1,5 @@
-const {sayHello} = require('./student');
+const student = require('./student');
+student.sayHello();
 
-sayHello();
+const studentA = student.makeAStudent();
+
